@@ -3,7 +3,11 @@ const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport')
 const keys = require('./config/keys')
-mongoose.connect(keys.mongoURI);
+const options = {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}
+mongoose.connect(keys.mongoURI, options );
 require('./models/User')
 require('./services/passport');
 
