@@ -1,0 +1,4 @@
+concurrently package allows two servers to run with single command
+
+
+start both: npm run dev
