@@ -2,3 +2,9 @@ concurrently package allows two servers to run with single command
 
 
 start both: npm run dev
+
+index.js in client is the redux side 
+
+Stripe
+publishable key: pk_test_51JzXUuBk645BfQfrMKdZQdOM8Mfzwi2w1C61R6qJZ9kbiK2t0Leqm7LrL1avf0YEpRlAnGRPmKn7OX9DzXRbMYKD002u6kbImJ
+secret key: sk_test_51JzXUuBk645BfQfrhzhSJljO0QebdqwtsxA9OfbMfQVevUu5cqDtnCgV3upHEBtOrWz9ZcODwT4ULvfoOkpuX8vJ00dCEBWALV
